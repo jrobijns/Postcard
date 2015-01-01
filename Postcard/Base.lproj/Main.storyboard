@@ -61,6 +61,15 @@
                                     <rect key="frame" x="23" y="77" width="327" height="57"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGK-J6-SUs">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="23" y="151" width="219" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="4so-ze-BdE"/>
                                 <exclude reference="oZs-I7-CD0"/>
                                 <exclude reference="jS2-l9-9mE"/>
+                                <exclude reference="TGK-J6-SUs"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="4so-ze-BdE"/>
                                 <include reference="oZs-I7-CD0"/>
                                 <include reference="jS2-l9-9mE"/>
+                                <include reference="TGK-J6-SUs"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="K2N-XN-0GF" id="leg-LP-31H"/>
                         <outlet property="mailButton" destination="oZs-I7-CD0" id="HSw-8M-bL2"/>
                         <outlet property="messageLabel" destination="jS2-l9-9mE" id="qql-bn-pHW"/>
+                        <outlet property="nameLabel" destination="TGK-J6-SUs" id="ICn-ZR-YhN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
